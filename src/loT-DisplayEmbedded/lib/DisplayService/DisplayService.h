@@ -1,7 +1,8 @@
 #pragma once
 #include <Arduino.h>
 #include <Adafruit_ILI9341.h>
-#include"pins.h"
+#include "Pins.hpp"
+
 class DisplayService {
 public:
     DisplayService();
